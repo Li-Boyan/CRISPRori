@@ -16,4 +16,14 @@ There are a number of other parameters that can be altered. For details, please 
 
     matlab -nosplash -nodesktop -r "lineageAnalysis"
     
-If you want to change the default parameters, please run **help lineageAnalysis** in MATLAB.
+If you want to change the default parameters, please run **help lineageAnalysis** in MATLAB. The program will return following results in csv files:
+
+(1) Metadata that specifies the parameters used in each group;
+(2) Instantaneous growth rate;
+(3) Division cycle and cell volume;
+(4) Division adder;
+(5) Nucleoid-to-cytoplasm ratio;
+(6) GFP proteomic fraction;
+(7) Initiation mass;
+(8) Cell volume at certain time point;
+(9) Instantaneous GFP production rate;
