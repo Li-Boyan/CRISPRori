@@ -20,7 +20,7 @@ If you want to change the default parameters, please run **help lineageAnalysis*
 
     (1) Metadata that specifies the parameters used in each group;
     (2) Instantaneous growth rate;
-    (3) Division cycle and cell volume;
+    (3) Division cycle;
     (4) Division adder;
     (5) Nucleoid-to-cytoplasm ratio;
     (6) GFP proteomic fraction;
