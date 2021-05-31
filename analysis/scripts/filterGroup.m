@@ -1,5 +1,5 @@
 function targetFileNames = filterGroup(varargin)
-%FILTERGROUP
+%FILTERGROUP return the simulation file names with given filtering conditions.
 %
 % Default parameters
 load DefaultAnalysisParams.mat 
