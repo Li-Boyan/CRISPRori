@@ -8,9 +8,9 @@ This code repository includes the main programs for the numerical simulation and
 
     matlab -nosplash -nodesktop -r "IntegratedSimulation"
     
-Primary paramters include concentration of dCas9, target of dCas9, total time, and plasmid copy number. For example, if you want to perform the simulation with dCas9 concentration of 50 targeting R4 box, total time of 600 minutes, GFP-encoded plasmid number of 10, and returning lineage GIF, the command should be:
+Primary paramters include concentration of dCas9, target of dCas9, total time, and plasmid copy number. For example, if you want to perform the simulation with dCas9 concentration of 50 targeting R4 box, total time of 600 minutes, GFP-encoded plasmid number of 10, and returning lineage GIF with 100 frames, the command should be:
 
-    matlab -nosplash -nodesktop -r "IntegratedSimulation c_dCas9 50 dCas9_target R4 ttol 600 plasmidCopyNum 10 gif True"
+    matlab -nosplash -nodesktop -r "IntegratedSimulation c_dCas9 50 dCas9_target R4 ttol 600 plasmidCopyNum 10 gif True nRcd 100"
     
 There are a number of other parameters that can be altered. For details, please run **help IntegratedSimulation** in MATLAB. The simulation results will be in the default directory "../results" in the \*.mat format. We also provide a batch processing program to automatically deal with those result files. To run the processing program, switch to the *analysis* directory, and run the following command directly:
 
