@@ -27,3 +27,5 @@ If you want to change the default parameters, please run **help lineageAnalysis*
     (7) Initiation mass;
     (8) Cell volume at certain time point;
     (9) Instantaneous GFP production rate.
+    
+The results directory gives some sample result files and analysis/results are the analysis results of these simulations.
