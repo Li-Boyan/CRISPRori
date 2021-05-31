@@ -1,7 +1,7 @@
 # CRISPRori
 Numerical simulation programs for modeling DNA replication, gene expression, and cell division of bacteria. 
 
-In our paper, we report a novel discovery of DNA's role in governing cell growth homeostasis and resource allocation. For the details of this model or experimental validations, Please refer to our paper:
+In our paper, we report a novel discovery of DNA's role in governing cell growth homeostasis and resource allocation. For the details of this model or experimental validations, please refer to our paper:
 **Scaling between DNA and cell size governs bacterial growth homeostasis and resource allocation**
 
 This code repository includes the main programs for the numerical simulation and data analysis that has been tested on MATLAB R2020a. To start the simulation, download the whole repository to your local directory, and run the following command in the terminal:
